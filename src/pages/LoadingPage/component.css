@@ -22,5 +22,12 @@
 
 .loading_img {
     margin-top: 20px;
-    width: 15vw;
+    width: 16vw;
+}
+
+@media only screen and (max-width: 600px)  {
+    .loading_img {
+        margin-top: 20px;
+        width: 40vw;
+    }
 }

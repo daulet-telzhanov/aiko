@@ -1,0 +1,23 @@
+.box_input {
+    max-width: 190px;
+    width: calc(20px + 3vmin);
+    height: calc(20px + 3vmin);
+    outline: none;
+    margin: 5px;
+    transition: .5s;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: calc(14px + 2vmin);
+    color: black;
+}
+  
+.box_input:focus {
+    height: calc(26px + 3vmin);
+    width: calc(26px + 3vmin);
+    transform: rotate(0);
+}

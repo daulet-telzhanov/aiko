@@ -15,8 +15,8 @@
 top: 20px;
 left: 44px;
 position: absolute;
-width: 70px;
-height: 70px;
+width: calc(30px + 5vmin);;
+height: calc(30px + 5vmin);;
 background: red;
 -webkit-animation: loader45 1.6s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
         animation: loader45 1.6s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -27,19 +27,55 @@ background: red;
 content: " ";
 position: absolute;
 display: block;
-width: 70px;
-height: 70px;
+width: calc(30px + 5vmin);;
+height: calc(30px + 5vmin);;
 background: red;
 }
    
 .loader div:before {
-left: -40px;
-border-radius: 50% 0 0 50%;
+    left: -5vmin;
+    border-radius: 50% 0 0 50%;
 }
 
 .loader div:after {
-top: -40px;
-border-radius: 50% 50% 0 0;
+    top: -5vmin;
+    border-radius: 50% 50% 0 0;
+}
+
+@media only screen and (max-width: 700px)  {
+    .loader div:before {
+        left: -7vmin;
+        border-radius: 50% 0 0 50%;
+    }
+    
+    .loader div:after {
+        top: -7vmin;
+        border-radius: 50% 50% 0 0;
+    }
+}
+
+@media only screen and (max-width: 400px)  {
+    .loader div:before {
+        left: -10vmin;
+        border-radius: 50% 0 0 50%;
+    }
+    
+    .loader div:after {
+        top: -10vmin;
+        border-radius: 50% 50% 0 0;
+    }
+}
+
+@media only screen and (max-width: 300px)  {
+    .loader div:before {
+        left: -13vmin;
+        border-radius: 50% 0 0 50%;
+    }
+    
+    .loader div:after {
+        top: -13vmin;
+        border-radius: 50% 50% 0 0;
+    }
 }
 
 @-webkit-keyframes loader45 {

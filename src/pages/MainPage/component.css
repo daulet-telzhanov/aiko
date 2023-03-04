@@ -1,0 +1,23 @@
+.main_page {
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(26px + 3vmin);
+    margin-bottom: 14px;
+}
+
+.m20 {
+    margin-bottom: 20px;
+}
+
+.mh {
+    height: calc(26px + 3vmin);
+}

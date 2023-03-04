@@ -15,7 +15,11 @@ import img_8 from "../../imgs/8.png";
 import img_9 from "../../imgs/9.png";
 import img_10 from "../../imgs/10.png";
 
-const LoadingPage = () => {
+type LoadingPageProps = {
+    setIsloading: (isLoading: boolean) => void
+}
+
+const LoadingPage = ({setIsloading}:LoadingPageProps) => {
     const [load, setLoad] = React.useState<number>(0);
     const textIndex = Math.floor(load/10);    
 
@@ -52,6 +56,12 @@ const LoadingPage = () => {
 
         return () => clearInterval(interval);
     }, [])
+
+    useEffect(() => {
+        if (load === 100) {
+            setIsloading(false);
+        }
+    }, [load])
 
     return <div className='wrapper'>
         <span className='load'>{`${load}%`}</span>
