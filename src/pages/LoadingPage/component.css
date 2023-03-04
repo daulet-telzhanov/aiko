@@ -1,0 +1,26 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: calc(14px + 2vmin);
+}
+
+.load {
+    margin-bottom: 20px;
+}
+
+.text {
+    margin-top: 40px;
+}
+
+.img_wrapper {
+    min-height: 300px;
+}
+
+.loading_img {
+    margin-top: 20px;
+    width: 15vw;
+}

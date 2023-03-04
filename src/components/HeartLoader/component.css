@@ -1,0 +1,107 @@
+.loader {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 135px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 40px 40px;
+        -ms-transform-origin: 40px 40px;
+            transform-origin: 40px 40px;
+}
+   
+.loader div {
+top: 20px;
+left: 44px;
+position: absolute;
+width: 70px;
+height: 70px;
+background: red;
+-webkit-animation: loader45 1.6s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation: loader45 1.6s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.loader div:after,
+.loader div:before {
+content: " ";
+position: absolute;
+display: block;
+width: 70px;
+height: 70px;
+background: red;
+}
+   
+.loader div:before {
+left: -40px;
+border-radius: 50% 0 0 50%;
+}
+
+.loader div:after {
+top: -40px;
+border-radius: 50% 50% 0 0;
+}
+
+@-webkit-keyframes loader45 {
+0% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+}
+
+5% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+39% {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+}
+
+45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+
+60% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+}
+
+100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+}
+}
+
+@keyframes loader45 {
+0% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+}
+
+5% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+39% {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+}
+
+45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+
+60% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+}
+
+100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+}
+}
