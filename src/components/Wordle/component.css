@@ -18,8 +18,15 @@
 }
 
 .wordle_input:disabled {
-    background-color: white;
+    background-color: white !important;
+    background: white !important;
 }
+
+.wordle_input {
+    background-color: white !important;
+    background: white !important;
+}
+
 
 .buttons {
     margin-top: 20px;

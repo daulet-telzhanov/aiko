@@ -3,6 +3,14 @@ html, body {
   height: 100%;
 }
 
+input {
+  background: white;
+}
+
+input:disabled {
+  background: white;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
