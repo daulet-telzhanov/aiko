@@ -17,6 +17,10 @@
     cursor: pointer;
 }
 
+.wordle_input:disabled {
+    background-color: white;
+}
+
 .buttons {
     margin-top: 20px;
     display: flex;

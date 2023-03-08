@@ -1,6 +1,6 @@
 .invite_wrapper {
     width: 100%;
-    height: calc(100% - 140px);
+    height: calc(100% - 220px);
     display: flex;
     flex-direction: column;
     align-items: center;

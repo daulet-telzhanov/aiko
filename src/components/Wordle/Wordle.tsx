@@ -49,6 +49,7 @@ const Wordle = ({word, onSuccess, successText}:WordleProps) => {
                     key={`inp_${i}`}
                     value={guess[i] || ""}
                     disabled={true}
+                    className={"wordle_input"}
                 />
             })}
         </div>
@@ -70,6 +71,7 @@ const Wordle = ({word, onSuccess, successText}:WordleProps) => {
                     <BoxInput
                         value={letter}
                         disabled={true}
+                        className={"wordle_input"}
                     />
                 </div> 
             })}
