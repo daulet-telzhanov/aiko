@@ -57,7 +57,7 @@ const SliderPage = ({setStage}:SliderPageProps) => {
             if (index === 0) {
                 updateIndex = 26;
             } else {
-                updateIndex = 26 - 1;
+                updateIndex = index - 1;
             }
         }
 
