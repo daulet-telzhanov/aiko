@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/aiko/static/css/main.b21fb1cc.css",
+    "main.js": "/aiko/static/js/main.6f21c1ee.js",
+    "static/js/787.a86f3764.chunk.js": "/aiko/static/js/787.a86f3764.chunk.js",
+    "static/media/4.png": "/aiko/static/media/4.995905301f388f896950.png",
+    "static/media/1.png": "/aiko/static/media/1.9bfca70ecb61f3c2d65e.png",
+    "static/media/6.png": "/aiko/static/media/6.523f4cff3274cad888e5.png",
+    "static/media/9.png": "/aiko/static/media/9.d15c3d638a5050748b54.png",
+    "static/media/8.png": "/aiko/static/media/8.aa80964f9f0b17dc3e0d.png",
+    "static/media/5.png": "/aiko/static/media/5.a2add4bd9090a8811ff0.png",
+    "static/media/10.png": "/aiko/static/media/10.c042e559b112d6804bd8.png",
+    "static/media/7.png": "/aiko/static/media/7.93122b9a8b18a3cbfc2f.png",
+    "static/media/3.png": "/aiko/static/media/3.a868d481523741a2e15d.png",
+    "static/media/2.png": "/aiko/static/media/2.0f655ab51a8d1ef30e43.png",
+    "static/media/orch.jpeg": "/aiko/static/media/orch.ca8d2c1f0ea93175833b.jpeg",
+    "index.html": "/aiko/index.html",
+    "main.b21fb1cc.css.map": "/aiko/static/css/main.b21fb1cc.css.map",
+    "main.6f21c1ee.js.map": "/aiko/static/js/main.6f21c1ee.js.map",
+    "787.a86f3764.chunk.js.map": "/aiko/static/js/787.a86f3764.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b21fb1cc.css",
+    "static/js/main.6f21c1ee.js"
+  ]
+}
