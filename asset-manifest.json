@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aiko/static/css/main.517d4c87.css",
+    "main.css": "/aiko/static/css/main.8293c78f.css",
     "main.js": "/aiko/static/js/main.a693afb4.js",
     "static/js/787.a86f3764.chunk.js": "/aiko/static/js/787.a86f3764.chunk.js",
     "static/media/4.png": "/aiko/static/media/4.995905301f388f896950.png",
@@ -15,12 +15,12 @@
     "static/media/2.png": "/aiko/static/media/2.0f655ab51a8d1ef30e43.png",
     "static/media/orch.jpeg": "/aiko/static/media/orch.ca8d2c1f0ea93175833b.jpeg",
     "index.html": "/aiko/index.html",
-    "main.517d4c87.css.map": "/aiko/static/css/main.517d4c87.css.map",
+    "main.8293c78f.css.map": "/aiko/static/css/main.8293c78f.css.map",
     "main.a693afb4.js.map": "/aiko/static/js/main.a693afb4.js.map",
     "787.a86f3764.chunk.js.map": "/aiko/static/js/787.a86f3764.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.517d4c87.css",
+    "static/css/main.8293c78f.css",
     "static/js/main.a693afb4.js"
   ]
 }
