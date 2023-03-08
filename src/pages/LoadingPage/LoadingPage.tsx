@@ -74,7 +74,7 @@ const LoadingPage = ({setIsloading}:LoadingPageProps) => {
                 delay="0s"
                 direction="normal"
                 timing="ease-out"
-                iteration="10"
+                iteration="11"
                 fillMode="none"
             >
                 {`${texts[textIndex] || "Жанм жанм жанм"}`}

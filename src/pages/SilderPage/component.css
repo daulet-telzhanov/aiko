@@ -1,0 +1,46 @@
+.slider_wrapper {
+    width: 100% !important;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.slider {
+    margin-top: 20px;
+    width: 100% !important;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.slider > div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: none !important;
+    outline: none !important;
+}
+
+.slider > div > div {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.slider > div > div > div > div {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important; 
+    background-color: #282c34 !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.slider_button {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}

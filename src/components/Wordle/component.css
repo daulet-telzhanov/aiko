@@ -1,0 +1,32 @@
+.keyBoard {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.disabled_box {
+    opacity: 0.5;
+}
+
+.wordle_box {
+    cursor: pointer;
+}
+
+.wordle_box:hover > input {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons > button {
+    color: #282c34;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

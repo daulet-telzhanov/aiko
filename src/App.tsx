@@ -1,6 +1,6 @@
 import React from 'react';
+import { Toaster } from 'react-hot-toast';
 import './App.css';
-import HeartLoader from './components/HeartLoader/HeartLoader';
 import LoadingPage from './pages/LoadingPage/LoadingPage';
 import MainPage from './pages/MainPage/MainPage';
 
@@ -10,6 +10,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div>
+          <Toaster
+            position="top-center"
+            reverseOrder={false}
+          />
+        </div>
+
         {isLoading && <LoadingPage
           setIsloading={setIsloading}
         />}

@@ -4,6 +4,15 @@
   font-size: calc(14px + 2vmin);
 }
 
+input {
+  background: white;
+}
+
+input:disabled {
+  background: white;
+}
+
+
 .App {
   text-align: center;
   overflow: hidden;

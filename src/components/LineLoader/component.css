@@ -11,7 +11,8 @@
   background: #FFF;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   box-sizing: border-box;
-  animation: animFw 40s linear infinite;
+  -webkit-animation: animFw 50s linear infinite;
+  animation: animFw 50s linear infinite;
 }
 
 .line_loader::after,
